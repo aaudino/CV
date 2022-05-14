@@ -1,0 +1,56 @@
+.hrLine,
+.hrLine-grey {
+  display: block;
+  height: 0.1rem;
+  background-color: #fff;
+}
+
+.hrLine-grey {
+  background-color: #5a5c5d;
+}
+
+.icon {
+  display: flex;
+  font-size: 1.5rem;
+  align-self: top;
+}
+
+.icon-blue {
+  display: block;
+  color: #102564;
+  text-align: center;
+  font-size: 2.4rem;
+}
+
+.grid-2-cols,
+.grid-3-cols {
+  margin-top: 1.2rem;
+  display: grid;
+}
+
+.grid-2-cols {
+  grid-template-columns: auto 1fr;
+  grid-template-rows: repeat(3 1fr);
+  row-gap: 0.5rem;
+  column-gap: 1rem;
+}
+
+.grid-3-cols {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+}
+
+.info-container-subheading {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-align: center;
+}
+.experience-container-subheading {
+  margin-top: 1.5rem;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #204ac8;
+  letter-spacing: 1.7px;
+}
